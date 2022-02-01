@@ -1,0 +1,83 @@
+// question: 1022  
+::::[choice_multiple]<p>What is the Model Optimizer used for?<a href\="\#_msocom_1" name\="_msoanchor_1"></a></p>{
+	~%100%Create hardware independent intermediate representations for inference# 
+	~%0%Create optimized intermediate representations for specific devices# 
+	~%0%Create pruned version of the neural network models# 
+	~%0%Create an optimized model of a computer vision application# 
+}
+
+// question: 1023  
+::::[choice_multiple]<p>What types of optimization does Model Optimizer perform. (Select all that apply.)</p>{
+	~%100%Linear Operations Fusing# 
+	~%0%INT8 Compression# 
+	~%100%Grouped Convolution Fusing# 
+	~%0%Batch Normalization# 
+}
+
+// question: 1024  
+::::[choice_multiple]<p>What model weights can the Model Optimizer create? (Select all that apply.)</p>{
+	~%100%FP16# 
+	~%0%INT8# 
+	~%0%FP8# 
+	~%100%FP32# 
+}
+
+// question: 1025  
+::::[choice_multiple]<p>Tom started his AI journey using Open Neural Network Exchange (ONNX) and has a trained ONNX* model. As his project has grown, Tom began considering working with OpenVINO™ for inferencing. What will Tom need to do next for his existing ONNX model. Then provide some options.</p>{
+	~%100%Use the Model Optimizer to convert his model to IR format# 
+	~%0%Use the Model Optimizer to change the scale of the model# 
+	~%0%Use the Model Optimizer to define the input and output data types# 
+	~%0%Use the Model Optimizer to convert his model to Tensorflow* format# 
+}
+
+// question: 1026  
+::::[choice_multiple]<p>What inference parameter improves when using an INT8 Model instead of an FP32 model? (Select all that apply.)</p>{
+	~%0%Accuracy# 
+	~%100%Inference Latency# 
+	~%100%Inference Speed# 
+	~%0%Post-processing the inference results# 
+}
+
+// question: 1027  
+::::[choice_multiple]<p>What two types of files are created by Model Optimizer?</p>{
+	~%100%XML and BIN# 
+	~%0%CSV and HDF5# 
+	~%0%PB and NPY# 
+	~%0%ML and XLSX# 
+	~%0%MLMODEL and YAML# 
+}
+
+// question: 1028  
+::::[choice_multiple]<p><span class\="TextRun SCXW18556158 BCX0" lang\="en" style\="margin\:0px;padding\:0px;color\:\#000000;font-size\:11pt;font-style\:normal;font-weight\:400;letter-spacing\:normal;text-align\:left;text-indent\:0px;text-transform\:none;white-space\:normal;word-spacing\:0px;background-color\:\#ffffff;line-height\:20.7px;font-family\:Calibri, 'Calibri_EmbeddedFont', 'Calibri_MSFontService', sans-serif;"><span class\="NormalTextRun SCXW18556158 BCX0" style\="margin\:0px;padding\:0px;">When running the Model Optimizer on the command line, what input argument is required?</span></span><span class\="EOP SCXW18556158 BCX0" style\="margin\:0px;padding\:0px;color\:\#000000;font-size\:11pt;font-style\:normal;font-weight\:400;letter-spacing\:normal;text-align\:left;text-indent\:0px;text-transform\:none;white-space\:normal;word-spacing\:0px;background-color\:\#ffffff;line-height\:20.7px;font-family\:Calibri, 'Calibri_EmbeddedFont', 'Calibri_MSFontService', sans-serif;"> <br></span></p>{
+	~%0%<span class\="TextRun SCXW92100626 BCX0" lang\="en" style\="margin\:0px;padding\:0px;color\:\#000000;font-size\:11pt;font-style\:normal;font-weight\:400;letter-spacing\:normal;text-align\:left;text-indent\:0px;text-transform\:none;white-space\:normal;word-spacing\:0px;background-color\:\#ffffff;line-height\:20.7px;font-family\:Calibri, 'Calibri_EmbeddedFont', 'Calibri_MSFontService', sans-serif;"><span class\="NormalTextRun SCXW92100626 BCX0" style\="margin\:0px;padding\:0px;">The –scale flag to give the MO the data type precision information.</span></span><span class\="EOP SCXW92100626 BCX0" style\="margin\:0px;padding\:0px;color\:\#000000;font-size\:11pt;font-style\:normal;font-weight\:400;letter-spacing\:normal;text-align\:left;text-indent\:0px;text-transform\:none;white-space\:normal;word-spacing\:0px;background-color\:\#ffffff;line-height\:20.7px;font-family\:Calibri, 'Calibri_EmbeddedFont', 'Calibri_MSFontService', sans-serif;"> <br></span># 
+	~%100%<span class\="NormalTextRun BCX0 SCXW82709818" style\="margin\:0px;padding\:0px;color\:\#000000;font-family\:Calibri, 'Calibri_EmbeddedFont', 'Calibri_MSFontService', sans-serif;font-size\:14.6667px;font-style\:normal;font-weight\:400;letter-spacing\:normal;text-align\:left;text-indent\:0px;text-transform\:none;white-space\:normal;word-spacing\:0px;background-color\:\#ffffff;">The –</span><span class\="NormalTextRun SpellingErrorV2 BCX0 DefaultHighlightTransition SCXW82709818" style\="margin\:0px;padding\:0px;background-repeat\:repeat-x;background-position\:left bottom;border-bottom\:1px solid transparent;color\:\#000000;font-family\:Calibri, 'Calibri_EmbeddedFont', 'Calibri_MSFontService', sans-serif;font-size\:14.6667px;font-style\:normal;font-weight\:400;letter-spacing\:normal;text-align\:left;text-indent\:0px;text-transform\:none;white-space\:normal;word-spacing\:0px;background-color\:\#ffffff;">input_model</span><span class\="NormalTextRun BCX0 SCXW82709818" style\="margin\:0px;padding\:0px;color\:\#000000;font-family\:Calibri, 'Calibri_EmbeddedFont', 'Calibri_MSFontService', sans-serif;font-size\:14.6667px;font-style\:normal;font-weight\:400;letter-spacing\:normal;text-align\:left;text-indent\:0px;text-transform\:none;white-space\:normal;word-spacing\:0px;background-color\:\#ffffff;"> flag to give the directory that the model is in.</span># 
+	~%0%<span class\="TextRun SCXW127951291 BCX0" lang\="en" style\="margin\:0px;padding\:0px;color\:\#000000;font-size\:11pt;font-style\:normal;font-weight\:400;letter-spacing\:normal;text-align\:left;text-indent\:0px;text-transform\:none;white-space\:normal;word-spacing\:0px;background-color\:\#ffffff;line-height\:20.7px;font-family\:Calibri, 'Calibri_EmbeddedFont', 'Calibri_MSFontService', sans-serif;"><span class\="NormalTextRun SCXW127951291 BCX0" style\="margin\:0px;padding\:0px;">The –model flag to point to the model file.</span></span><span class\="EOP SCXW127951291 BCX0" style\="margin\:0px;padding\:0px;color\:\#000000;font-size\:11pt;font-style\:normal;font-weight\:400;letter-spacing\:normal;text-align\:left;text-indent\:0px;text-transform\:none;white-space\:normal;word-spacing\:0px;background-color\:\#ffffff;line-height\:20.7px;font-family\:Calibri, 'Calibri_EmbeddedFont', 'Calibri_MSFontService', sans-serif;"> <br></span># 
+	~%0%<span class\="TextRun SCXW84316431 BCX0" lang\="en" style\="margin\:0px;padding\:0px;color\:\#000000;font-size\:11pt;font-style\:normal;font-weight\:400;letter-spacing\:normal;text-align\:left;text-indent\:0px;text-transform\:none;white-space\:normal;word-spacing\:0px;background-color\:\#ffffff;line-height\:20.7px;font-family\:Calibri, 'Calibri_EmbeddedFont', 'Calibri_MSFontService', sans-serif;"><span class\="NormalTextRun SCXW84316431 BCX0" style\="margin\:0px;padding\:0px;">The –vino flag which points to the OpenVINO binaries.</span></span><span class\="EOP SCXW84316431 BCX0" style\="margin\:0px;padding\:0px;color\:\#000000;font-size\:11pt;font-style\:normal;font-weight\:400;letter-spacing\:normal;text-align\:left;text-indent\:0px;text-transform\:none;white-space\:normal;word-spacing\:0px;background-color\:\#ffffff;line-height\:20.7px;font-family\:Calibri, 'Calibri_EmbeddedFont', 'Calibri_MSFontService', sans-serif;"> <br></span># 
+}
+
+// question: 1029  
+::::[choice_multiple]<p><span class\="TextRun SCXW81548115 BCX0" lang\="en" style\="margin\:0px;padding\:0px;color\:\#000000;font-size\:11pt;font-style\:normal;font-weight\:400;letter-spacing\:normal;text-align\:left;text-indent\:0px;text-transform\:none;white-space\:normal;word-spacing\:0px;background-color\:\#ffffff;line-height\:20.7px;font-family\:Calibri, 'Calibri_EmbeddedFont', 'Calibri_MSFontService', sans-serif;"><span class\="NormalTextRun SCXW81548115 BCX0" style\="margin\:0px;padding\:0px;">Which of these is not an operation that the Model Optimizer supports?</span></span><span class\="EOP SCXW81548115 BCX0" style\="margin\:0px;padding\:0px;color\:\#000000;font-size\:11pt;font-style\:normal;font-weight\:400;letter-spacing\:normal;text-align\:left;text-indent\:0px;text-transform\:none;white-space\:normal;word-spacing\:0px;background-color\:\#ffffff;line-height\:20.7px;font-family\:Calibri, 'Calibri_EmbeddedFont', 'Calibri_MSFontService', sans-serif;"> <br></span></p>{
+	~%0%<span class\="TextRun SCXW194447357 BCX0" lang\="en" style\="background\:none repeat scroll 0% 0%;border\:0px none \#000000;border-collapse\:separate;caption-side\:top;clear\:none;color\:\#000000;display\:inline;float\:none;font-family\:'WordVisi_MSFontService', Calibri, 'Calibri_EmbeddedFont', 'Calibri_MSFontService', sans-serif;font-size\:14.6667px;font-style\:normal;font-weight\:400;height\:auto;letter-spacing\:normal;line-height\:20.7px;list-style\:none outside;margin\:0px;opacity\:1;overflow\:visible;padding\:0px;table-layout\:auto;text-align\:left;text-indent\:0px;text-transform\:none;vertical-align\:baseline;visibility\:visible;white-space\:normal;width\:auto;word-spacing\:0px;border-spacing\:0px;"><span class\="NormalTextRun SpellingErrorV2 SCXW194447357 BCX0 DefaultHighlightTransition">BatchNorm</span></span># 
+	~%0%<span class\="TextRun SCXW179452701 BCX0" lang\="en" style\="background\:none repeat scroll 0% 0%;border\:0px none \#000000;border-collapse\:separate;caption-side\:top;clear\:none;color\:\#000000;display\:inline;float\:none;font-family\:'WordVisi_MSFontService', Calibri, 'Calibri_EmbeddedFont', 'Calibri_MSFontService', sans-serif;font-size\:14.6667px;font-style\:normal;font-weight\:400;height\:auto;letter-spacing\:normal;line-height\:20.7px;list-style\:none outside;margin\:0px;opacity\:1;overflow\:visible;padding\:0px;table-layout\:auto;text-align\:left;text-indent\:0px;text-transform\:none;vertical-align\:baseline;visibility\:visible;white-space\:normal;width\:auto;word-spacing\:0px;border-spacing\:0px;"><span class\="NormalTextRun SpellingErrorV2 SCXW179452701 BCX0 DefaultHighlightTransition">ScaleShift</span></span># 
+	~%0%<span class\="TextRun SCXW239722838 BCX0" lang\="en" style\="background\:none repeat scroll 0% 0%;border\:0px none \#000000;border-collapse\:separate;caption-side\:top;clear\:none;color\:\#000000;display\:inline;float\:none;font-family\:'WordVisi_MSFontService', Calibri, 'Calibri_EmbeddedFont', 'Calibri_MSFontService', sans-serif;font-size\:14.6667px;font-style\:normal;font-weight\:400;height\:auto;letter-spacing\:normal;line-height\:20.7px;list-style\:none outside;margin\:0px;opacity\:1;overflow\:visible;padding\:0px;table-layout\:auto;text-align\:left;text-indent\:0px;text-transform\:none;vertical-align\:baseline;visibility\:visible;white-space\:normal;width\:auto;word-spacing\:0px;border-spacing\:0px;"><span class\="NormalTextRun SpellingErrorV2 SCXW239722838 BCX0 DefaultHighlightTransition">ELTwise</span></span># 
+	~%0%<span class\="TextRun SCXW46677689 BCX0" lang\="en" style\="background\:none repeat scroll 0% 0%;border\:0px none \#000000;border-collapse\:separate;caption-side\:top;clear\:none;color\:\#000000;display\:inline;float\:none;font-family\:'WordVisi_MSFontService', Calibri, 'Calibri_EmbeddedFont', 'Calibri_MSFontService', sans-serif;font-size\:14.6667px;font-style\:normal;font-weight\:400;height\:auto;letter-spacing\:normal;line-height\:20.7px;list-style\:none outside;margin\:0px;opacity\:1;overflow\:visible;padding\:0px;table-layout\:auto;text-align\:left;text-indent\:0px;text-transform\:none;vertical-align\:baseline;visibility\:visible;white-space\:normal;width\:auto;word-spacing\:0px;border-spacing\:0px;"><span class\="NormalTextRun SCXW46677689 BCX0">RLU</span></span># 
+	~%100%<span class\="TextRun SCXW55341928 BCX0" lang\="en" style\="background\:none repeat scroll 0% 0%;border\:0px none \#000000;border-collapse\:separate;caption-side\:top;clear\:none;color\:\#000000;display\:inline;float\:none;font-family\:'WordVisi_MSFontService', Calibri, 'Calibri_EmbeddedFont', 'Calibri_MSFontService', sans-serif;font-size\:14.6667px;font-style\:normal;font-weight\:400;height\:auto;letter-spacing\:normal;line-height\:20.7px;list-style\:none outside;margin\:0px;opacity\:1;overflow\:visible;padding\:0px;table-layout\:auto;text-align\:left;text-indent\:0px;text-transform\:none;vertical-align\:baseline;visibility\:visible;white-space\:normal;width\:auto;word-spacing\:0px;border-spacing\:0px;"><span class\="NormalTextRun SpellingErrorV2 SCXW55341928 BCX0 DefaultHighlightTransition">UniShift</span></span># 
+}
+
+// question: 1030  
+::::[choice_multiple]<p>When referring to IR files, what is the .XML file?</p>{
+	~%100%An FP32 version of the trained model# 
+	~%0%An FP16 version of the trained model# 
+	~%0%An input file for the model optimizer# 
+	~%100%<span class\="TextRun SCXW217219826 BCX0" lang\="en" style\="background\:none repeat scroll 0% 0%;border\:0px none \#000000;border-collapse\:separate;caption-side\:top;clear\:none;color\:\#000000;display\:inline;float\:none;font-family\:'WordVisi_MSFontService', Calibri, 'Calibri_EmbeddedFont', 'Calibri_MSFontService', sans-serif;font-size\:14.6667px;font-style\:normal;font-weight\:400;height\:auto;letter-spacing\:normal;line-height\:20.7px;list-style\:none outside;margin\:0px;opacity\:1;overflow\:visible;padding\:0px;table-layout\:auto;text-align\:left;text-indent\:0px;text-transform\:none;vertical-align\:baseline;visibility\:visible;white-space\:normal;width\:auto;word-spacing\:0px;border-spacing\:0px;"><span class\="NormalTextRun SCXW217219826 BCX0">An input file for the inference engine</span></span># 
+}
+
+// question: 1031  
+::::[choice_multiple]<p>What type of AI Framework models can Intel® OpenVINO(TM) Inference run without using the model optimizer?</p>{
+	~%0%Caffe*# 
+	~%100%ONNX*# 
+	~%0%Tensorflow*# 
+	~%100%Intermediate Representation Format# 
+	~%0%PyTorch*# 
+}
+

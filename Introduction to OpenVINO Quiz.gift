@@ -1,0 +1,82 @@
+// question: 1012  
+::::[choice_multiple]<p>Which of the following tradeoffs are applicable while choosing an edge device for inference? (Select all that apply.)</p>{
+	~%100%Camera Frame rate and resolution VS actual inference rate needed# 
+	~%100%Power vs Performance# 
+	~%100%Environment concerns, for example a fanless unit, or battery power# 
+	~%0%MacOS* vs Linux* OS for the edge device# 
+	~%100%Running inference on CPU only or GPU only or both# 
+}
+
+// question: 1013  
+::::[choice_multiple]<p>OpenVINO™ inference engines can be used on what types of hardware? (Select all that apply.)</p>{
+	~%100%Intel® GPUs# 
+	~%100%Intel® CPU# 
+	~%100%Intel® Movidius™ Myriad™ X VPU# 
+	~%0%IBM Power# 
+}
+
+// question: 1014  
+::::[choice_multiple]<p>What AI Frameworks does OpenVINO™ support natively? (Select all that apply.)</p>{
+	~%100%MxNet*# 
+	~%100%TensorFlow*# 
+	~%100%ONNX*# 
+	~%0%PyTorch*# 
+	~%100%Kaldi*# 
+}
+
+// question: 1015  
+::::[choice_multiple]<p>What does the acronym IR mean?</p>{
+	~%100%Intermediate Representation# 
+	~%0%Intel Representation# 
+	~%0%Inference Representation# 
+	~%0%Inference Runtime# 
+}
+
+// question: 1016  
+::::[choice_multiple]<p>When referring to IR files, what is the .XML file?</p>{
+	~%0%<p>An FP32 version of the trained model</p># 
+	~%0%An FP16 version of the trained model# 
+	~%0%An input file for the model optimizer# 
+	~%100%An input file for the inference engine# 
+}
+
+// question: 1017  
+::::[choice_multiple]<p>The Intel® Distribution of OpenVINO™ Toolkit is a software library and toolkit that is aimed at which of the following?</p>{
+	~%100%High Performance AI Inference# 
+	~%0%High Performance AI Training and deployment# 
+	~%0%High Performance AI Retraining# 
+	~%0%Decision and Expert AI Systems# 
+}
+
+// question: 1018  
+::::[choice_multiple]<p>What Does the OpenVINO™ slogan “Write Once, Deploy Anywhere” mean?</p>{
+	~%0%AI Developers can deploy software to any location# 
+	~%100%AI Developers can run the same code on multiple types of hardware# 
+	~%0%<span class\="TextRun SCXW42875320 BCX0" lang\="en" style\="margin\:0px;padding\:0px;color\:\#000000;font-size\:11pt;font-style\:normal;font-weight\:400;letter-spacing\:normal;text-align\:left;text-indent\:0px;text-transform\:none;white-space\:normal;word-spacing\:0px;background-color\:\#ffffff;line-height\:20.7px;font-family\:Calibri, 'Calibri_EmbeddedFont', 'Calibri_MSFontService', sans-serif;"><span class\="NormalTextRun SCXW42875320 BCX0" style\="margin\:0px;padding\:0px;">AI Developers can run projects using multiple technologies</span></span><span class\="EOP SCXW42875320 BCX0" style\="margin\:0px;padding\:0px;color\:\#000000;font-size\:11pt;font-style\:normal;font-weight\:400;letter-spacing\:normal;text-align\:left;text-indent\:0px;text-transform\:none;white-space\:normal;word-spacing\:0px;background-color\:\#ffffff;line-height\:20.7px;font-family\:Calibri, 'Calibri_EmbeddedFont', 'Calibri_MSFontService', sans-serif;"> <br></span># 
+	~%0%AI Developers can publish to multiple edge platforms# 
+}
+
+// question: 1019  
+::::[choice_multiple]<p>What are the steps to build an application with the Intel® Distribution of OpenVINO™ Toolkit</p>{
+	~%0%Design, deploy, optimize# 
+	~%0%Deploy, update, optimize# 
+	~%0%Optimize, deploy, redesign# 
+	~%100%Build, optimize, deploy# 
+}
+
+// question: 1020  
+::::[choice_multiple]<p>The Intel® Distribution of OpenVINO™ Toolkit contains (Select all that apply)\:</p>{
+	~%100%Trained and Optimized Neural Networks# 
+	~%100%Tools for analyzing Neural Networks efficiency# 
+	~%100%Software libraries for AI Inference# 
+	~%100%Tools for preprocessing and post processing images# 
+}
+
+// question: 1021  
+::::[choice_multiple]<p>Which Operating Systems are supported by the Intel® Distribution of OpenVINO™ Toolkit? (Select all that apply.)</p>{
+	~%100%Windows*# 
+	~%100%Linux*# 
+	~%100%MacOS*# 
+	~%0%Android*# 
+}
+

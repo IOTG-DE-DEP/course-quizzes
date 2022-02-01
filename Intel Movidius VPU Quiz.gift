@@ -1,0 +1,98 @@
+// question: 1042  
+::::[choice_multiple]<p>If you have an HDDL card with 8 Myriad-X devices, what “device” option can be used for inference? (Select all that apply.)</p>{
+	~%0%HETERO\: VPU, CPU# 
+	~%100%HDDL# 
+	~%100%MULTI\: vpu1, vpu2, vpu3# 
+	~%0%MYRIAD# 
+}
+
+// question: 1043  
+::::[choice_multiple]<p>What is the correct parameter to complete the Model Optimizer “data-type” option when using an Intel® Movidius™ Myriad™ X Vision Processing Unit (VPU)?</p>{
+	~%100%FP16# 
+	~%0%FP32# 
+	~%0%INT8# 
+	~%0%INT16# 
+}
+
+// question: 1044  
+::::[choice_multiple]<p>The Intel® Neural Compute Stick 2 contains</p>{
+	~%100%VPU# 
+	~%0%USB based Neural Networks# 
+	~%0%Support for high wattage computation# 
+	~%0%4 CPUs# 
+}
+
+// question: 1045  
+::::[choice_multiple]<p>The Intel® Neural Compute Stick 2 is for</p>{
+	~%100%Prototyping low power computer vision devices# 
+	~%100%Can be used on non-Intel hardware, such as a Raspberry Pi# 
+	~%100%Supported in OpenVINO™ through the MYRAID plugin# 
+	~%100%Portable and mobile use cases# 
+}
+
+// question: 1046  
+::::[choice_multiple]<p>How many Shave cores does the Intel® Neural Compute Stick 2 contain\:</p>{
+	~%0%4# 
+	~%0%8# 
+	~%100%16# 
+	~%0%32# 
+	~%0%64# 
+}
+
+// question: 1047  
+::::[choice_multiple]<p>The Intel® Neural Compute Stick 2 supports which video resolutions?</p>{
+	~%100%720p# 
+	~%100%1080p# 
+	~%100%4k# 
+	~%0%8k# 
+}
+
+// question: 1048  
+::::[choice_multiple]<p>If you have an HDDL card with 8 Myriad-X devices, what “device” option can be used for inference? (Select all that apply.)</p>{
+	~%0%HETERO\: VPU, CPU# 
+	~%100%HDDL# 
+	~%100%MULTI\: vpu1, vpu2, vpu3# 
+	~%0%MYRIAD# 
+}
+
+// question: 1049  
+::::[choice_multiple]<p>What is the correct parameter to complete the Model Optimizer “data-type” option when using an Intel® Movidius™ Myriad™ X Vision Processing Unit (VPU)?</p>{
+	~%100%FP16# 
+	~%0%FP32# 
+	~%0%INT8# 
+	~%0%INT16# 
+}
+
+// question: 1050  
+::::[choice_multiple]<p>The Intel® Neural Compute Stick 2 contains</p>{
+	~%0%4 CPUs# 
+	~%100%VPU# 
+	~%0%USB based Neural Networks# 
+	~%0%Support for high wattage computation# 
+}
+
+// question: 1051  
+::::[choice_multiple]<p>The Intel® Neural Compute Stick 2 is for</p>{
+	~%100%Prototyping low power computer vision devices# 
+	~%100%Can be used on non-Intel hardware, such as a Raspberry Pi# 
+	~%100%Supported in OpenVINO™ through the MYRAID plugin# 
+	~%100%Portable and mobile use cases# 
+}
+
+// question: 1052  
+::::[choice_multiple]<p>How many Shave cores does the Intel® Neural Compute Stick 2 contain\:</p>{
+	~%0%4# 
+	~%0%8# 
+	~%100%16# 
+	~%0%32# 
+	~%0%64# 
+}
+
+// question: 1053  
+::::[choice_multiple]<p>The Intel® Neural Compute Stick 2 supports which video resolutions?</p>{
+	~%100%720p# 
+	~%100%1080p# 
+	~%100%4k# 
+	~%0%8k# 
+}
+

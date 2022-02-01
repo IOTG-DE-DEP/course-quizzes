@@ -1,0 +1,67 @@
+// question: 879  
+::::[choice_multiple]<p>What commands are valid for running in a development server Linux* terminal? (Select all that apply.)</p>{
+	~%100%wget
+	~%100%lsusb
+	~%100%git clone
+	~%100%pip install
+	~%0%sudo apt-get
+}
+
+// question: 880  
+::::[choice_multiple]<p>What does the !pbsnodes command do?</p>{
+	~%0%Preloads a Batch Setup file for later inference on an edge node
+	~%0%Selects an edge node for inference
+	~%0%Runs a Power-Up and Begin Script file for a powered down edge node
+	~%100%Displays a list of edge nodes and their installed hardware
+}
+
+// question: 881  
+::::[choice_multiple]<p>How are models from the Open Model Zoo loaded onto edge nodes?<a href\="\#_msocom_1" name\="_msoanchor_1"></a><a href\="\#_msocom_1" name\="_msoanchor_1"></a></p>{
+	~%0%They are pre-installed on all the edge nodes; no loading is necessary.
+	~%0%Users must copy the files to the selected edge Nodes before running the inference
+	~%0%When the Jupyter* Notebook runs on the Edge Node, the Model Downloader command downloads the models
+	~%100%They are downloaded on the development server, and the disk is re-mapped to the Edge Node
+}
+
+// question: 882  
+::::[choice_multiple]<p>What “device” can be used on the Intel® DevCloud Development Server for inference?</p>{
+	~%0%MYRIAD™
+	~%0%HDDL
+	~%0%GPU
+	~%100%CPU
+}
+
+// question: 896  
+::::[choice_multiple]<p>Classification is often referred to as the “hello world” of AI/Computer Vision applications. What are the applicable use cases for classification? (Select all that apply.)</p>{
+	~%100%Training new developers
+	~%100%Discrete Item Recognition
+	~%100%Garbage Sorting/Recycling
+	~%0%Identifying items on a store shelf
+}
+
+// question: 897  
+::::[choice_multiple]<p>What Model Downloader command line option is used to list all the Models available from the Model Zoo?</p>{
+	~%0%--disp_all
+	~%100%--print_all
+	~%0%--show_all
+	~%0%--list_all
+	~%0%--help
+}
+
+// question: 905  
+::::[choice_multiple]<p>Exercise 2 in the classification tutorial is to run your own image. How did you determine that the object you chose was detectable?</p>{
+	~%0%I did not try; I just used a random image.
+	~%0%I checked the mobilenet-ssd page on the Model zoo, looked for the training dataset and chose an image that was reasonable.
+	~%0%I looked at the OpenVINO™ toolkit documentation for mobilenet-ssd and saw it used the Imagenet* data set, so then I guessed at an image category.
+	~%100%I looked at the OpenVINO™ toolkit documentation for mobilenet-ssd and saw it used the VOC0712 data set, so then I chose an image that was likely included in the dataset.
+}
+
+// question: 904  
+::::[choice_multiple]<p>How many colors are used for displaying bounding boxes using an Object Detection model. (Select all that apply.)</p>{
+	~%0%Colors are unlimited
+	~%0%20
+	~%0%255
+	~%100%1 per object detected
+	~%100%1 per type of model class
+}
+

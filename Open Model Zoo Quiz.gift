@@ -1,0 +1,34 @@
+// question: 1081  
+::::[choice_multiple]<p>The Open Model Zoo contains\: </p>{
+	~%0%only Intel(R) models#This is answer is interesting
+	~%0%only public domain models
+	~%100%both Intel(R) and public domain models
+}
+
+// question: 1082  
+::::[choice_multiple]<p>Are all models in the Open Model Zoo validated to work with the Intel(R) Distribution of OpenVINO(TM) Toolkit?</p>{
+	~%100%True
+	~%0%False
+}
+
+// question: 1083  
+::::[choice_multiple]<p>The purpose of the Open Model Zoo is to (select all that apply)</p>{
+	~%100%Give developers a library of computer vision inference models to use so that they do not need to developer their own models
+	~%100%to host sample applications that a developer can learn
+	~%100%to show the compatiblity of different types and formats of models with OpenVINO(TM)
+}
+
+// question: 1084  
+::::[choice_multiple]<p>The demo applications in the Open Model Zoo are</p>{
+	~%0%graphical applications that demonstrate the video sources and real-time inferencing overlays
+	~%0%web applications that demonstrate the use of computer vision models on the Internet
+	~%100%console applications that demonstrate how to use the inference engine\n<div> </div>
+	~%0%applications that run on embedded hardware and focus on demonstrating low power computing
+}
+
+// question: 1085  
+::::[choice]<p>Does the Open Model Zoo contain tools that help developers download models and install them on their development system?</p>\n<div id\="gtx-trans"> </div>{
+	=%100%True, it's called the Model Downloader tool
+	~%0%False
+}
+

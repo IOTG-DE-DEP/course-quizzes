@@ -1,0 +1,83 @@
+// question: 1032  
+::::[choice_multiple]<p>Which “device name” corresponds to the Intel® Neural Compute Stick 2</p>{
+	~%0%CPU# 
+	~%0%GPU# 
+	~%100%MYRIAD# 
+	~%0%HDDL# 
+}
+
+// question: 1033  
+::::[choice_multiple]<p>Why does it take longer to start an inference application on an iGPU or VPU than on the CPU?</p>{
+	~%100%The iGPU or VPU Plugin performs a JIT (Just In Time) compile of the OpenCL program for the GPU.# 
+	~%0%The Operating System is using the iGPU or VPU and needs to be shared.# 
+	~%0%Using Model Optimizer to convert a model for the iGPU or VPU takes longer.# 
+	~%0%Laptop iGPU or VPU’s run slower than the CPU.# 
+	~%0%iGPU or VPU’s use 8-bit data for the RGB color registers while CPU registers are 32-bits.# 
+}
+
+// question: 1034  
+::::[choice_multiple]<p>If a user application is written using Python* in a Jupyter* Notebook, what device can run this application?</p>{
+	~%0%HDDL# 
+	~%0%iGPU# 
+	~%0%VPU# 
+	~%100%CPU# 
+}
+
+// question: 1035  
+::::[choice_multiple]<p>Inference engine libraries are supplied in which languages? (Select all that apply.)</p>{
+	~%100%C# 
+	~%0%Swift*# 
+	~%100%C++# 
+	~%0%Java* 8# 
+	~%100%Python*# 
+}
+
+// question: 1036  
+::::[choice_multiple]<p>What device options allow for parallel inference to be started?</p>{
+	~%0%ASYNC\: CPU# 
+	~%100%MULTI\: CPU, MYRIAD# 
+	~%0%MULTI\: CPU, CPU# 
+	~%0%ASYNC\: CPU, MYRIAD# 
+	~%100%MULTI\: GPU. CPU# 
+}
+
+// question: 1037  
+::::[choice_multiple]<p>What is the Unified API?</p>{
+	~%100%API in the Core Object that is hardware agnostic.# 
+	~%0%API the library layer that allows multiple language bindings# 
+	~%0%API that the plugins use to connect to OpenVINO™# 
+	~%0%API that connects neural net inferencing to Cloud storage# 
+}
+
+// question: 1038  
+::::[choice_multiple]<p><span class\="TextRun SCXW98165355 BCX0" lang\="en" style\="margin\:0px;padding\:0px;color\:\#000000;font-size\:11pt;font-style\:normal;font-weight\:400;letter-spacing\:normal;text-align\:left;text-indent\:0px;text-transform\:none;white-space\:normal;word-spacing\:0px;background-color\:\#ffffff;line-height\:20.7px;font-family\:Calibri, 'Calibri_EmbeddedFont', 'Calibri_MSFontService', sans-serif;"><span class\="NormalTextRun SCXW98165355 BCX0" style\="margin\:0px;padding\:0px;">Neural Network Models often require that you preprocess input before sending it to the inference engine. What types of preprocessing are common? </span><span class\="NormalTextRun SCXW98165355 BCX0" style\="margin\:0px;padding\:0px;">(Select all that apply.)</span></span><span class\="EOP SCXW98165355 BCX0" style\="margin\:0px;padding\:0px;color\:\#000000;font-size\:11pt;font-style\:normal;font-weight\:400;letter-spacing\:normal;text-align\:left;text-indent\:0px;text-transform\:none;white-space\:normal;word-spacing\:0px;background-color\:\#ffffff;line-height\:20.7px;font-family\:Calibri, 'Calibri_EmbeddedFont', 'Calibri_MSFontService', sans-serif;"> <br></span></p>{
+	~%100%<span class\="TextRun SCXW187487298 BCX0" lang\="en" style\="margin\:0px;padding\:0px;color\:\#000000;font-size\:11pt;font-style\:normal;font-weight\:400;letter-spacing\:normal;text-align\:left;text-indent\:0px;text-transform\:none;white-space\:normal;word-spacing\:0px;background-color\:\#ffffff;line-height\:20.7px;font-family\:Calibri, 'Calibri_EmbeddedFont', 'Calibri_MSFontService', sans-serif;"><span class\="NormalTextRun SCXW187487298 BCX0" style\="margin\:0px;padding\:0px;">Resizing images</span></span><span class\="EOP SCXW187487298 BCX0" style\="margin\:0px;padding\:0px;color\:\#000000;font-size\:11pt;font-style\:normal;font-weight\:400;letter-spacing\:normal;text-align\:left;text-indent\:0px;text-transform\:none;white-space\:normal;word-spacing\:0px;background-color\:\#ffffff;line-height\:20.7px;font-family\:Calibri, 'Calibri_EmbeddedFont', 'Calibri_MSFontService', sans-serif;"> <br></span># 
+	~%100%<span class\="TextRun SCXW226419857 BCX0" lang\="en" style\="margin\:0px;padding\:0px;color\:\#000000;font-size\:11pt;font-style\:normal;font-weight\:400;letter-spacing\:normal;text-align\:left;text-indent\:0px;text-transform\:none;white-space\:normal;word-spacing\:0px;background-color\:\#ffffff;line-height\:20.7px;font-family\:Calibri, 'Calibri_EmbeddedFont', 'Calibri_MSFontService', sans-serif;"><span class\="NormalTextRun SCXW226419857 BCX0" style\="margin\:0px;padding\:0px;">Reordering Color channels</span></span><span class\="EOP SCXW226419857 BCX0" style\="margin\:0px;padding\:0px;color\:\#000000;font-size\:11pt;font-style\:normal;font-weight\:400;letter-spacing\:normal;text-align\:left;text-indent\:0px;text-transform\:none;white-space\:normal;word-spacing\:0px;background-color\:\#ffffff;line-height\:20.7px;font-family\:Calibri, 'Calibri_EmbeddedFont', 'Calibri_MSFontService', sans-serif;"> <br></span># 
+	~%0%<span class\="TextRun SCXW72301428 BCX0" lang\="en" style\="margin\:0px;padding\:0px;color\:\#000000;font-size\:11pt;font-style\:normal;font-weight\:400;letter-spacing\:normal;text-align\:left;text-indent\:0px;text-transform\:none;white-space\:normal;word-spacing\:0px;background-color\:\#ffffff;line-height\:20.7px;font-family\:Calibri, 'Calibri_EmbeddedFont', 'Calibri_MSFontService', sans-serif;"><span class\="NormalTextRun SCXW72301428 BCX0" style\="margin\:0px;padding\:0px;">Scaling the input size to be between 0 and 1</span></span><span class\="EOP SCXW72301428 BCX0" style\="margin\:0px;padding\:0px;color\:\#000000;font-size\:11pt;font-style\:normal;font-weight\:400;letter-spacing\:normal;text-align\:left;text-indent\:0px;text-transform\:none;white-space\:normal;word-spacing\:0px;background-color\:\#ffffff;line-height\:20.7px;font-family\:Calibri, 'Calibri_EmbeddedFont', 'Calibri_MSFontService', sans-serif;"> <br></span># 
+	~%0%Generating variations of training images# 
+}
+
+// question: 1039  
+::::[choice_multiple]<p>What does an image segmentation model return?</p>{
+	~%0%A set of data points that outlines a given shape.# 
+	~%100%A set of data points that outlines a given shape.# 
+	~%0%A bounding box that is positioned around a given shape# 
+	~%0%A set of data points that divides the images into multiple sections# 
+}
+
+// question: 1040  
+::::[choice_multiple]<p>The Inference Engine function infer() ___. (Select all that apply.)</p>{
+	~%100%blocks the main thread and only returns when inferencing is complete# 
+	~%0%does not block the main thread and returns asynchronously# 
+	~%0%sends a message to the inference engine that starts inference in a separate thread# 
+	~%100%starts by optimizing your import and then generates an output# 
+}
+
+// question: 1041  
+::::[choice_multiple]<p>The wait() method of the inference engine does what?</p>{
+	~%0%Blocks the inference processing until more data is available.# 
+	~%100%Watches for returning data from the inference engine in async mode# 
+	~%0%Allows for pausing the processing of data on CPU, GPU, and other hardware# 
+	~%0%Introduces latency into the inference pipeline to improve timing coordination# 
+}
+
